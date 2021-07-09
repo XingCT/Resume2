@@ -1,0 +1,131 @@
+.header{
+    background: url(/image/banner.png) no-repeat center;
+    background-size: cover;
+    .name{
+        max-width: 304px;
+        margin: 0 auto;
+        padding: 308px 0px;
+        .detail{
+            margin-left: 13px;
+            margin-top: 32px;
+            p{
+                @include fz-lh(24px, 36px)
+            }
+        }
+        .pic{
+            margin-left: 2px;
+            margin-top: 40px;
+            white-space: nowrap;
+            img{
+                margin: 0 8px;
+            }
+        }
+    }
+}
+
+.about{
+    max-width: 412px;
+    margin: 0 auto;
+    padding: 56px 0;
+    text-align: center;
+    h2{
+        margin-bottom: 40px;
+    }
+    img{
+        margin-bottom: 20px;
+    }
+    p{
+        @include fz-lh(24px, 32px);
+        white-space: nowrap;
+        margin-bottom: 24px;
+    }
+    ul{
+        max-width: 384px;
+        margin: 0 auto;
+        padding-top: 14px;
+        border-top: 1px solid #000000;
+        li{
+            @include fz-lh(24px, 42px);
+            margin: 14px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            span{
+                overflow: hidden;
+                width: 22px;
+                height: 22px;
+                border-radius:999em;
+                background: #891818 no-repeat;
+                margin-right: 16px;
+            }
+        }
+        
+    }
+}
+
+.xxxd{
+    text-align: center;
+    padding-top: 56px;
+    padding-bottom: 160px;
+    h2{
+        margin-bottom: 12px;
+    }
+    h3{
+        margin-bottom: 32px;
+    }
+    p{
+        @include fz-lh(20px, 30px);
+        margin-bottom: 68px;
+    }
+    img{
+        margin-bottom: 40px;
+    }
+    .photo{
+        img{
+            margin: 0 12px;
+        }
+    }
+}
+
+.works{
+    text-align: center;
+    margin-top: 56px;
+    margin-bottom: 120px;
+    h2{
+        margin-bottom: 16px;
+    }
+    p{
+        @include fz-lh(20px, 30px);
+        max-width: 226px;
+        margin: 0 auto;
+        margin-bottom: 32px;
+    }
+    .top, .middle, .lower{
+        display: flex;
+        justify-content: center;
+        margin: 24px 0;
+        .list{
+            margin: 0 12px;
+            p{
+                @include fz-lh(20px, 42px);
+            }
+        }
+    }
+}
+
+.footer{
+    text-align: center;
+    padding: 64px 0;
+    p{
+        margin-top: 16px;
+        @include fz-lh(24px, 36px);
+        a{
+            text-decoration: none;
+            color: #FFFFFF;
+            &:hover{
+                font-size: 32px;
+                color: #ff00f2;
+            }
+        }
+    }
+}

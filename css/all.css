@@ -1,0 +1,245 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 106px;
+}
+
+h2 {
+  font-size: 64px;
+  line-height: 84px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 42px;
+}
+
+.white {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+.header {
+  background: url(/image/banner.png) no-repeat center;
+  background-size: cover;
+}
+
+.header .name {
+  max-width: 304px;
+  margin: 0 auto;
+  padding: 308px 0px;
+}
+
+.header .name .detail {
+  margin-left: 13px;
+  margin-top: 32px;
+}
+
+.header .name .detail p {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.header .name .pic {
+  margin-left: 2px;
+  margin-top: 40px;
+  white-space: nowrap;
+}
+
+.header .name .pic img {
+  margin: 0 8px;
+}
+
+.about {
+  max-width: 412px;
+  margin: 0 auto;
+  padding: 56px 0;
+  text-align: center;
+}
+
+.about h2 {
+  margin-bottom: 40px;
+}
+
+.about img {
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 24px;
+  line-height: 32px;
+  white-space: nowrap;
+  margin-bottom: 24px;
+}
+
+.about ul {
+  max-width: 384px;
+  margin: 0 auto;
+  padding-top: 14px;
+  border-top: 1px solid #000000;
+}
+
+.about ul li {
+  font-size: 24px;
+  line-height: 42px;
+  margin: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about ul li span {
+  overflow: hidden;
+  width: 22px;
+  height: 22px;
+  border-radius: 999em;
+  background: #891818 no-repeat;
+  margin-right: 16px;
+}
+
+.xxxd {
+  text-align: center;
+  padding-top: 56px;
+  padding-bottom: 160px;
+}
+
+.xxxd h2 {
+  margin-bottom: 12px;
+}
+
+.xxxd h3 {
+  margin-bottom: 32px;
+}
+
+.xxxd p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 68px;
+}
+
+.xxxd img {
+  margin-bottom: 40px;
+}
+
+.xxxd .photo img {
+  margin: 0 12px;
+}
+
+.works {
+  text-align: center;
+  margin-top: 56px;
+  margin-bottom: 120px;
+}
+
+.works h2 {
+  margin-bottom: 16px;
+}
+
+.works p {
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 226px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+
+.works .top, .works .middle, .works .lower {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 24px 0;
+}
+
+.works .top .list, .works .middle .list, .works .lower .list {
+  margin: 0 12px;
+}
+
+.works .top .list p, .works .middle .list p, .works .lower .list p {
+  font-size: 20px;
+  line-height: 42px;
+}
+
+.footer {
+  text-align: center;
+  padding: 64px 0;
+}
+
+.footer p {
+  margin-top: 16px;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.footer p a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.footer p a:hover {
+  font-size: 32px;
+  color: #ff00f2;
+}
+/*# sourceMappingURL=all.css.map */

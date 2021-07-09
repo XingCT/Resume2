@@ -1,0 +1,4 @@
+@mixin fz-lh($fsize, $lsize){
+    font-size: $fsize;
+    line-height: $lsize;
+}
