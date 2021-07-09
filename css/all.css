@@ -74,7 +74,9 @@ h3 {
 }
 
 .header {
-  background: url("https://hexschool.github.io/webLayoutTraining1st/week2/banner.png") no-repeat center;
+  background: url(/image/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
