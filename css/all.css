@@ -188,9 +188,11 @@ h3 {
 }
 
 .works {
-  text-align: center;
+  max-width: 1224px;
+  margin: 0 auto;
   margin-top: 56px;
-  margin-bottom: 120px;
+  margin-bottom: 72px;
+  text-align: center;
 }
 
 .works h2 {
@@ -205,21 +207,25 @@ h3 {
   margin-bottom: 32px;
 }
 
-.works .top, .works .middle, .works .lower {
+.works ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 24px 0;
 }
 
-.works .top .list, .works .middle .list, .works .lower .list {
-  margin: 0 12px;
+.works ul li {
+  margin: 24px 12px;
 }
 
-.works .top .list p, .works .middle .list p, .works .lower .list p {
+.works ul p {
   font-size: 20px;
   line-height: 42px;
 }
