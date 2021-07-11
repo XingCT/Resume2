@@ -20,6 +20,10 @@
             white-space: nowrap;
             img{
                 margin: 0 8px;
+                transition: all 0.5s;
+                &:hover{
+                    transform: scale(1.5);
+                }
             }
         }
     }
@@ -109,8 +113,16 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+        a{
+            text-decoration: none;
+            color: #000;
+        }
         li{
             margin: 24px 12px;
+            transition: all 1s;
+            &:hover{
+                transform: scale(1.2)
+            }
         }
         p{
             @include fz-lh(20px, 42px);
@@ -128,9 +140,10 @@
         a{
             text-decoration: none;
             color: #FFFFFF;
+            transition: all 1s;
             &:hover{
                 font-size: 32px;
-                color: #ff00f2;
+                color: #e5ff00
             }
         }
     }
