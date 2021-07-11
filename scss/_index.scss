@@ -1,7 +1,5 @@
 .header{
-    background: url("../image/banner.png");
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url("../image/banner.png") no-repeat center;
     background-size: cover;
     .name{
         max-width: 304px;
@@ -85,6 +83,11 @@
     }
     img{
         margin-bottom: 40px;
+        transition: all 1s;
+        &:hover{
+            transform: scale(1.2);
+            border: 5px solid #FFFFFF;
+        }
     }
     .photo{
         img{

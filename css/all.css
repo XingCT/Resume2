@@ -74,9 +74,7 @@ h3 {
 }
 
 .header {
-  background: url("../image/banner.png");
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url("../image/banner.png") no-repeat center;
   background-size: cover;
 }
 
@@ -188,6 +186,14 @@ h3 {
 
 .xxxd img {
   margin-bottom: 40px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.xxxd img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  border: 5px solid #FFFFFF;
 }
 
 .xxxd .photo img {
